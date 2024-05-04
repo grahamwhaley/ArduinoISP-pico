@@ -59,7 +59,7 @@ device.
 
 ## Prototyping
 
-Time to test out the theory. Plug up a Pi Pico on a breadboard and build a tiny 2x6 to 2x8 chip
+Time to test out the theory. Plug a Pi Pico into a breadboard and build a tiny 2x6 to 2x8 chip
 programming converter:
 
 ![prototype](./pictures/prototype.jpg)
@@ -83,7 +83,7 @@ Then I basically followed this procedure:
      and that the `ATTiny85` was correctly identified, and the fuses were correctly programmed and
      verified
 
-If all that went well, congratulations, you can an ISP programmer.
+If all that went well, congratulations, you have an ISP programmer!.
 
 ## Putting it together
 
@@ -101,5 +101,5 @@ I changed a couple of things about the original just to suit my local tastes mor
 
   - On bootup, flash the LEDs for longer. The original barely flickered them, which made it had to
     spot that bootup was OK.
-  - And, re-order the LED flashes into 'colour order'. I used R/G/B for the LEDs (it seemed right), and
+  - And, re-order the LED flashes into 'colour order'. I used R/Y/G for the LEDs (it seemed right), and
     thus wanted to flash them in that colour order (... like traffic lights!).
